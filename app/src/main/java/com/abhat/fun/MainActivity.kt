@@ -2,13 +2,12 @@ package com.abhat.`fun`
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.widget.SwitchCompat
 import android.widget.CompoundButton
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener {
 
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
